@@ -1,0 +1,301 @@
+/* Empty. Add your own CSS if you like */
+
+
+/* This is an ioinc override for image size */
+.item-thumbnail-left .item-content > img:first-child {
+   max-width: 51px;
+   margin-top: -5px;
+}
+
+.avatar-img {
+   margin-left: 20px;
+   height: 51px;
+   -webkit-border-radius: 50%;
+           border-radius: 50%;
+}
+
+.prompt-img {
+   width: auto;
+   height: 100%;
+}
+
+.item {
+   border: 0;
+}
+
+.item-thumbnail-left .item-content { 
+   font-size: 29px;
+   color: white;
+   text-align: left;
+   font-weight: bold;  
+   padding-top: 11px;
+   padding-bottom: 11px;
+   border-radius: 8px;
+   border-top: 1px solid #979797;
+   border-bottom: 1px solid #fff;
+
+}
+
+ .item-content {
+   background: lightgray;
+}
+
+.item-thumbnail-left, .item-thumbnail-left .item-content {
+      min-height: 30px;
+}
+
+.footer {
+   background: red;
+   padding-bottom: 20px;
+}
+
+.bar .title {
+   background: #84C9F7;
+   margin: 0;
+   font-size: 25px;
+
+   line-height: 27px;
+   color: white;
+}
+
+.list  {
+   margin-bottom: 0;
+   }
+
+/* For the Checkbox */
+
+label .checkbox.checkbox-input-hidden {
+   margin-right: 20px;
+}
+ 
+.item-checkbox .checkbox {
+   position: absolute;
+   top: 50%;
+   right: 0px;
+   z-index: 3;
+   margin-top: -20px;
+}
+
+.item {
+   padding: 0;
+}
+
+.redBackground {
+   background: green;
+}
+
+.red {
+   background: red;
+}
+
+.map {
+   background: green;
+   background: url("../img/maps.png");
+   height: 170px;
+   background-repeat:  repeat;
+   top:0;
+}
+
+#map {
+   height:100%;
+   width: 100%;
+}
+
+.row .map {
+   margin-bottom: -60px;
+}
+
+
+.checked {
+    background-color: #ff0000;
+    font-size: 49px;
+} 
+
+
+.has-header {
+   background: #FFF;
+}
+
+.has-bottom{
+  bottom:60px !important;
+}
+
+.broadcaster-image {
+   background: #FFF;
+}
+
+.profile-circle {
+   background: #fff;
+   border: 0;
+   border-radius: 50%;
+   height: 70px;
+   width: 70px;
+   margin: 0 auto;
+   border: 2px solid #ccc;
+   z-index: 9000;
+}
+
+.comethru-p {
+   margin: 0 auto;
+   padding: 18px;
+   font-weight: 800;
+}
+
+.row .comethru-p {
+   margin-top: 90px;
+}
+
+.time-sent-div { 
+   background: #005fa8;
+   color: white;
+   
+}
+
+.row {
+   padding: 0;
+}
+
+.row .col .profile-circle {
+   margin-top: -10px;
+   position: absolute;
+   
+}
+
+.text-center {
+   margin-top: 0;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.time-sent-div {
+   margin-top: 0;
+   position: absolute;
+   right: 0;
+   height: 70px;
+   margin: 0 auto;
+   padding-top: 13px;
+   padding-left: 20%;
+   padding-right: 20px;
+   -webkit-border-top-left-radius: 40px;
+           border-top-left-radius: 40px;
+
+
+  
+}
+
+.time-sent-div h7 {
+   margin: 0 auto;
+   text-align: center;
+   margin-left: 24px;
+   font-weight: 800;
+    letter-spacing: .30px;
+}
+
+.blue-content-holder {
+   background: #85c9f8;
+   padding:20px 0;
+   color: white;
+   text-align: center;
+   z-index: 400;
+   position: absolute;
+
+}
+
+.invite {
+   margin: 0 auto;
+   padding-top: 10px;
+}
+
+input.note{
+   text-align: center;
+   background: #84C9F7;
+   font-size: 20px;
+   color: #FFF;
+   height: 30px;
+   font-weight: bold;
+   z-index: 20;
+   padding: 30px 0;
+}
+
+button.comethru-button {
+   background: yellow;
+   padding: 9px;
+   z-index: 900;
+}
+
+.comethru-button-prompt {
+   background: red;
+}
+
+.comethru-button-yes {
+   background: red;
+   margin: 0 auto;
+   width: 80%;
+   margin-bottom: 15px;
+    border: 0;
+   -webkit-border-radius: 8px;
+           border-radius: 8px;
+}
+
+.comethru-button-no {
+   background: red;
+   margin: 0 auto;
+   width: 80%;
+   border: 0;
+   -webkit-border-radius: 8px;
+           border-radius: 8px;
+}
+
+.modal {
+   background: green;
+}
+
+button.close-logo {
+   color: #FFF;
+}
+
+.scroll-content {
+   background: #fff;
+}
+
+button.button-positive.comethru-button-no {
+   background: #ccc;
+}
+button.button-positive:hover {
+   background: green;
+}
+
+.fixed-tabs {
+   background: red;
+   position: absolute;
+   bottom: 0;
+}
+
+.fixed-outside{
+  position: absolute;
+  bottom: 0;
+  color:black;
+  width: 100%;
+  height: 120px;
+  text-align:center;
+}
+
+.button.button-positive {
+   background: #8AC92A;
+   padding: 9px;
+   margin-top: 1px;
+   font-size: 40px;
+   font-weight: 800;
+}
+
+.bar.bar-stable .title { 
+   color: white;
+}
+
+.login-username { 
+   padding: 20px;
+}
+
+.login-password {
+   padding: 20px;
+}

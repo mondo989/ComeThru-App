@@ -1,0 +1,72 @@
+
+
+
+<ion-view title="934 Howard St" >
+<ion-nav-back-button class="button-clear">
+    <i class="ion-arrow-left-c"></i> Back
+  </ion-nav-back-button>
+  <ion-content class="has-header has-bottom">
+    <ion-list>
+      <ion-checkbox ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="item item-thumbnail-left">
+        <img ng-src="{{ playlist.image }}" class="avatar-img">
+        {{playlist.title}}
+      </ion-checkbox>
+                <!-- <ion-checkbox ng-model="isChecked">
+                </ion-checkbox> -->
+    </ion-list>
+ </ion-content>
+
+    <div class="fixed-outside">
+         <!-- This is for the note -->
+          <div class="list">
+              <label class="item item-input">
+                  <input type="text" placeholder="+Add Note" class="note">
+              </label>
+          </div>
+
+        <!-- This is the ComeThru request -->
+          <button class="button button-full button-positive comethru-button" ng-click="go('/login')">
+
+          ComeThru
+          </button>
+    </div>
+ 
+</ion-view>
+
+
+
+
+
+<!-- <ion-footer-bar align-title="left" class="bar-assertive">
+  <div class="buttons">
+    <button class="button">Left Button</button>
+  </div>
+  <h1 class="title">Title!</h1>
+  <div class="buttons" ng-click="doSomething()">
+    <button class="button">Right Button</button>
+  </div>
+</ion-footer-bar> -->
+
+
+
+ 
+<!-- 
+      <label class="item item-input">
+        <span class="input-label">Username</span>
+        <input type="text">
+      </label>
+
+<label class="item item-input">
+  <span class="input-label">Date</span>
+  <input type="date">
+</label> -->
+
+
+      <!-- <ul class="list">
+          <li class="item item-checkbox">
+             <label class="checkbox">
+               <input type="checkbox">
+             </label>
+             Flux Capacitor
+          </li>
+      </ul> -->
