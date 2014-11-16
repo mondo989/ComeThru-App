@@ -69,10 +69,9 @@ $scope.go = function ( path ) {
 
 
 
-
-
-
 // Map Controller  Still not ready to be used yet.
+// Pulled from http://codepen.io/matiastucci/pen/tnFkg
+
 
 angular.module('ionic.example', ['ionic'])
 

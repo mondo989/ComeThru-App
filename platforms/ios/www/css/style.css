@@ -7,6 +7,10 @@
    margin-top: -5px;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 .avatar-img {
    margin-left: 20px;
    height: 51px;
@@ -54,9 +58,15 @@
    margin: 0;
    font-size: 25px;
 
-   line-height: 27px;
+   line-height: 36px;
    color: white;
 }
+
+.comethru-logo-splash {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -5px;
+ }
 
 .list  {
    margin-bottom: 0;
@@ -198,12 +208,17 @@ label .checkbox.checkbox-input-hidden {
    text-align: center;
    z-index: 400;
    position: absolute;
+   padding-bottom: 7px;
 
 }
 
 .invite {
    margin: 0 auto;
    padding-top: 10px;
+   font-weight: 700;
+   font-size: 21px;
+   line-height: 27px;
+   
 }
 
 input.note{
@@ -298,4 +313,49 @@ button.button-positive:hover {
 
 .login-password {
    padding: 20px;
+}
+
+
+.splash-container { 
+  background: #84C9F7;
+  width: 100%;
+  height: 500px;
+}
+
+.splash-container h2 {
+  margin-top: 90px;
+  margin-bottom: 160px;
+  color: white;
+  font-size: 40px;
+}
+
+.sent-container {
+  background: #8AC92A;
+  width: 100%;
+  min-height: 500px;
+}
+
+.sent-container h2 {
+  color: white;
+}
+
+.button-positive.sign-up {
+  background: #0A45A0;;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.button-positive.log-in {
+  background: #3197DE;
+  width: 100%;
+}
+
+.request-number {
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 1px 1px 0 black;
+}
+
+.to_for-mini {
+  font-size: 13px;
 }

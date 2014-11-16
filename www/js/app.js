@@ -39,6 +39,33 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+     .state('app.home-view', {
+      url: "/home-view",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/home-view.html"
+        }
+      }
+    })
+
+      .state('app.splash', {
+      url: "/splash",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/splash.html"
+        }
+      }
+    })
+
+       .state('app.comethru-sent', {
+      url: "/comethru-sent",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/comethru-sent.html"
+        }
+      }
+    })
+
 
     .state('app.prompt', {
       url: "/prompt",
