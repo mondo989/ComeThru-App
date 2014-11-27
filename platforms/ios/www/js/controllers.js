@@ -21,16 +21,9 @@ angular.module('starter.controllers', [])
     $scope.modal.show();
   };
 
-
 $scope.go = function ( path ) {
     $location.path( 'templates/login.html' );
   };
-
-
-
-// Trying to add to 
-
-
 
   //  $scope.create = function() {
   //   $state.go('/app/login');
@@ -68,6 +61,54 @@ $scope.go = function ( path ) {
 
 
 
+
+
+
+
+
+
+angular.module('ionicApp', ['ionic', 'ngResource'])
+
+// I'm assuming that factory goes with ^ ngResource
+.factory('Post', function($resource) {
+  return $resource('/api/post/:id');
+})
+
+
+
+.controller('friendsCtrl', function($scope, Friends) {
+  // Get all posts
+  $scope.posts = Friends.query();
+
+  // Our form data for creating a new post with ng-model
+  $scope.postData = {};
+  $scope.newPost = function() {
+    var post = new Post($scope.postData);
+    post.$save();
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Google Maps Google Maps Google Maps Google Maps 
+// Google Maps Google Maps Google Maps Google Maps 
+// Google Maps Google Maps Google Maps Google Maps 
+// Google Maps Google Maps Google Maps Google Maps 
+// Google Maps Google Maps Google Maps Google Maps 
 
 // Map Controller  Still not ready to be used yet.
 // Pulled from http://codepen.io/matiastucci/pen/tnFkg

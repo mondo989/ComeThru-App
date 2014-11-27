@@ -1,9 +1,10 @@
 
-
+<!-- This is the API for choosing friends -->
+<body ng-app="ionicApp" ng-controller="friendsCtrl">
 
 <ion-view title="934 Howard St" >
 <ion-nav-back-button class="button-clear">
-    <i class="ion-arrow-left-c"></i> Back
+    <i class="ion-arrow-left-c"></i>Back
   </ion-nav-back-button>
   <ion-content class="has-header has-bottom">
     <ion-list>
@@ -25,14 +26,14 @@
           </div>
 
         <!-- This is the ComeThru request -->
-          <button class="button button-full button-positive comethru-button" ng-click="go('/login')">
+          <button class="button button-full button-positive comethru-button" ng-click="modal.show()">
 
           ComeThru
           </button>
     </div>
  
 </ion-view>
-
+</body>
 
 
 
